@@ -102,7 +102,7 @@ O app procura versões novas ao abrir e a cada 4 horas e baixa em segundo plano.
 
 | O que aparece | O que fazer |
 |---|---|
-| **"Erro 403: access_denied"** ao entrar com o Google | Sua conta ainda não foi liberada para usar o app. Fale com quem administra o Smart Register. |
+| **"Erro 403: access_denied"** ao entrar com o Google | Sua conta ainda não foi liberada para usar o app. Peça a liberação por e-mail para [diego.barros@consistem.com.br](mailto:diego.barros@consistem.com.br), informando o e-mail da conta Google que você usou. |
 | **"Não encontrei a aba do mês atual"** | Crie a aba na aba **Criar mês**, ou confira o nome dela (veja [A planilha](#a-planilha)). |
 | **"Planilha não configurada"** | Abra a **Personalização**, entre com o Google e escolha a planilha. |
 | Batida não aparece na planilha | Veja a bolinha de status: sem internet, ela será enviada depois. Clique em **Atualizar agora** para tentar de novo. |
