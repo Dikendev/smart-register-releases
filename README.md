@@ -4,6 +4,8 @@ Este repositório guarda apenas os **instaladores** do Smart Register e os arqui
 
 O Smart Register registra o ponto numa planilha Google, funciona sem internet (envia as batidas quando a conexão volta) e reserva refeições no Gercon.
 
+> 📖 **Primeira vez?** Veja o **[guia Como usar](COMO-USAR.md)**: conectar o Google, escolher a planilha, registrar o ponto e o que cada tela faz.
+
 ## Download
 
 Baixe a versão mais recente em **[Releases](https://github.com/Dikendev/smart-register-releases/releases/latest)**:
@@ -14,7 +16,7 @@ Baixe a versão mais recente em **[Releases](https://github.com/Dikendev/smart-r
 | macOS | `smart-register-<versão>.dmg` |
 | Linux | `smart-register-<versão>.AppImage` ou `.deb` |
 
-Depois de instalado, o app procura versões novas ao abrir e a cada 4 horas. A atualização é baixada em segundo plano e instalada quando você fecha o app.
+Depois de instalado, o app procura versões novas ao abrir e a cada 4 horas. A atualização é baixada em segundo plano; quando estiver pronta, o app avisa e oferece **Reiniciar agora**. Se preferir, ela é instalada quando você fecha o app.
 
 ### Avisos na primeira instalação
 
@@ -45,8 +47,8 @@ São lidos pelo atualizador automático (`latest.yml` no Windows, `latest-mac.ym
 
 ## Problemas
 
-Use **Reportar um bug** no rodapé do app, que já abre um e-mail com o modelo de relato.
+Veja os [problemas comuns](COMO-USAR.md#problemas-comuns) no guia. Se não resolver, use **Reportar bug ou melhoria** no rodapé do app: o Gmail abre com o modelo de relato, a versão e o sistema já preenchidos.
 
 ---
 
-As releases são publicadas automaticamente pelo CI a cada nova versão. Não envie arquivos para este repositório manualmente.
+As releases são publicadas automaticamente pelo CI a cada nova versão. Não envie instaladores para este repositório manualmente; aqui só a documentação é editada à mão.
