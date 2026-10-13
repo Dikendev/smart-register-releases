@@ -98,11 +98,13 @@ Se a mesma batida for mudada na planilha e no app enquanto você estava sem inte
 
 O app procura versões novas ao abrir e a cada 4 horas e baixa em segundo plano. Quando a versão nova está pronta, aparece o aviso **"Versão X pronta"** com o botão **Reiniciar agora**. Se preferir, ela é instalada quando você fechar o app.
 
+No **macOS** a atualização ainda é manual: baixe o `.dmg` da versão nova em [Releases](https://github.com/Dikendev/smart-register-releases/releases/latest) e instale por cima (veja [macOS](README.md#macos)).
+
 ## Problemas comuns
 
 | O que aparece | O que fazer |
 |---|---|
-| **"Erro 403: access_denied"** ao entrar com o Google | Sua conta ainda não foi liberada para usar o app. Peça a liberação por e-mail para [diego.barros@consistem.com.br](mailto:diego.barros@consistem.com.br), informando o e-mail da conta Google que você usou. |
+| **"Erro 403: access_denied"** ao entrar com o Google | O app só aceita contas **@consistem.com.br**. Entre de novo e escolha a conta Consistem. Se o erro continuar, avise [diego.barros@consistem.com.br](mailto:diego.barros@consistem.com.br). |
 | **"Não encontrei a aba do mês atual"** | Crie a aba na aba **Criar mês**, ou confira o nome dela (veja [A planilha](#a-planilha)). |
 | **"Planilha não configurada"** | Abra a **Personalização**, entre com o Google e escolha a planilha. |
 | Batida não aparece na planilha | Veja a bolinha de status: sem internet, ela será enviada depois. Clique em **Atualizar agora** para tentar de novo. |

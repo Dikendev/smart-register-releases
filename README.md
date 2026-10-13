@@ -16,15 +16,25 @@ Baixe a versão mais recente em **[Releases](https://github.com/Dikendev/smart-r
 | macOS | `smart-register-<versão>.dmg` |
 | Linux | `smart-register-<versão>.AppImage` ou `.deb` |
 
-Depois de instalado, o app procura versões novas ao abrir e a cada 4 horas. A atualização é baixada em segundo plano; quando estiver pronta, o app avisa e oferece **Reiniciar agora**. Se preferir, ela é instalada quando você fecha o app.
+Depois de instalado, o app procura versões novas ao abrir e a cada 4 horas. A atualização é baixada em segundo plano; quando estiver pronta, o app avisa e oferece **Reiniciar agora**. Se preferir, ela é instalada quando você fecha o app. No macOS, a atualização ainda é manual (veja [macOS](#macos)).
 
 ### Avisos na primeira instalação
 
-Os instaladores ainda não são assinados digitalmente:
-
-- **Windows:** se aparecer "O Windows protegeu o computador", clique em **Mais informações** → **Executar assim mesmo**.
-- **macOS:** clique com o botão direito no app → **Abrir** → **Abrir**.
+- **Windows:** o instalador é assinado pela Consistem. Se mesmo assim aparecer "O Windows protegeu o computador", clique em **Mais informações** → **Executar assim mesmo**.
+- **macOS:** veja a seção [macOS](#macos) abaixo.
 - **Linux (AppImage):** dê permissão de execução com `chmod +x smart-register-*.AppImage`.
+
+### macOS
+
+A versão de Mac ainda não é assinada nem notarizada pela Apple, porque isso exige uma conta no Apple Developer Program. Por isso:
+
+- **Na primeira abertura**, o macOS bloqueia o app ("não pode ser aberto porque a Apple não pode verificar…"). Arraste o app para **Aplicativos**, clique nele com o botão direito, escolha **Abrir** e confirme. Se não funcionar, rode no Terminal:
+
+  ```bash
+  xattr -dr com.apple.quarantine "/Applications/Smart Register.app"
+  ```
+
+- **Atualizações:** a atualização automática do macOS só funciona com apps assinados. Quando sair uma versão nova, baixe o `.dmg` em [Releases](https://github.com/Dikendev/smart-register-releases/releases/latest) e instale por cima.
 
 ## Conferir o download
 
@@ -32,7 +42,7 @@ Cada release traz um arquivo `.sha256` ao lado de cada instalador e um `SHA256SU
 
 ```powershell
 # Windows (PowerShell): compare com o conteúdo do .sha256
-Get-FileHash .\smart-register-2.2.0-setup.exe -Algorithm SHA256
+Get-FileHash .\smart-register-1.0.0-setup.exe -Algorithm SHA256
 ```
 
 ```bash
